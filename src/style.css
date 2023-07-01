@@ -170,17 +170,35 @@ header {
     width: 100%;
 }
 
+.h-top {
+    display: flex;
+    align-items: center;
+    width: 97%;
+    justify-content: space-between;
+}
+
+.h-top > img {
+    height: 50px;
+    width: 50px;
+    justify-self: flex-start;
+}
+
+.menu {
+    height: 40px;
+    width: 40px;
+}
+
 .btn-container {
     display: flex;
-    gap: 20px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     width: 70vw;
+    max-width: 600px;
+    justify-content: space-around;
 }
 .btn-container > button {
     height: 50px;
-    /* max-width: 300px; */
-    border: 0px;
+    width: 100px;
+
+    border: 0px solid white;
     background: none;
     font-size: 1.3em;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -193,4 +211,13 @@ header {
     transform: translateY(-7px);
     color: white;
     border-bottom: 3px solid white;
+}
+
+.menu:hover {
+    fill: white;
+    transition: 0.2s;
+}
+
+.btn-container {
+    /* visibility: hidden; */
 }
