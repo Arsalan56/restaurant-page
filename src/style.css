@@ -185,22 +185,8 @@ header {
     cursor: pointer;
 }
 
-.menu {
-    height: 40px;
-    width: 40px;
-}
-
-/* .btn-container {
-    display: flex;
-    width: 70vw;
-    max-width: 600px;
-    justify-content: space-around;
-    border: 2px solid green;
-} */
-
 header ul {
     color: var(--color-5);
-    /* border: 2px solid blue; */
     width: 70vw;
     max-width: 600px;
     display: flex;
@@ -209,17 +195,6 @@ header ul {
     height: 50px;
     align-items: center;
 }
-/* .btn-container > button {
-    height: 50px;
-    width: 100px;
-
-    border: 0px solid white;
-    background: none;
-    font-size: 1.3em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: var(--color-5);
-    font-weight: 500;
-} */
 
 .nav-container li:hover {
     transition: 0.25s ease-in-out;
@@ -229,16 +204,20 @@ header ul {
     cursor: pointer;
 }
 
-li {
+a {
+    text-decoration: none;
+}
+header li {
     padding: 10px;
 }
 
-.menu:hover {
-    fill: white;
-    transition: 0.2s;
-    cursor: pointer;
+header li > a {
+    color: var(--color-5);
 }
 
-.btn-container {
-    /* visibility: hidden; */
+.github:hover {
+    fill: white;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    transform: rotate(1turn);
 }
