@@ -140,6 +140,10 @@ body {
     align-items: center;
     flex-direction: column;
     font-size: 16px;
+    height: 100%;
+    min-height: 100vh;
+    width: 100vw;
+    flex-grow: 1;
     font-family: Georgia, 'Times New Roman', Times, serif;
     --color-1: #03071e;
     --color-2: #370617;
@@ -152,20 +156,25 @@ body {
     --color-9: #faa307;
     --color-10: #ffba08;
     cursor: default;
+    background: url(../images/background.jpg) fixed center center;
+    background-size: cover;
+    /* https://www.freepik.com/free-ai-image/barbecue-skewers-meat-kebabs-with-vegetables-flaming-grill-ai-generative_43226962.htm#query=barbecue&position=1&from_view=search&track=sph */
 }
+
+/* Header Styling */
 
 h1 {
     font-size: 48px;
     font-weight: 600;
     font-family: 'Ananda';
-    padding-top: 20px;
+    padding-top: 25px;
     padding-bottom: 10px;
     color: var(--color-5);
 }
 
 header {
     flex-direction: column;
-    background: black;
+    background: rgba(0, 0, 0, 0.7);
     align-items: center;
     display: flex;
     width: 100%;
@@ -178,7 +187,7 @@ header {
     justify-content: space-between;
 }
 
-.h-top > img {
+.h-top img {
     height: 50px;
     width: 50px;
     justify-self: flex-start;
@@ -212,7 +221,8 @@ header li {
 }
 
 header li > a {
-    color: var(--color-5);
+    color: inherit;
+    padding: 10px;
 }
 
 .github:hover {
@@ -220,4 +230,15 @@ header li > a {
     transition: 0.3s ease-in-out;
     cursor: pointer;
     transform: rotate(1turn);
+}
+
+/* Main styling */
+.main {
+    display: flex;
+    background: rgba(0, 0, 0, 0.8);
+    width: 80vw;
+    justify-self: center;
+    flex-grow: 1;
+    margin: 50px 0px 75px 0px;
+    color: white;
 }
