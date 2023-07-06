@@ -233,12 +233,47 @@ header li > a {
 }
 
 /* Main styling */
-.main {
+main {
     display: flex;
     background: rgba(0, 0, 0, 0.8);
-    width: 80vw;
+    width: clamp(200px, 100vw, 700px);
     justify-self: center;
+    flex-direction: column;
     flex-grow: 1;
-    margin: 50px 0px 75px 0px;
+    margin: 50px 0px 50px 0px;
     color: white;
+    font-size: 2em;
+    gap: 20px;
+    align-items: center;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+main > p:last-of-type {
+    font-size: 0.7em;
+}
+.gap {
+    height: 0px;
+    border: 1px solid white;
+    width: clamp(200px, 95vw, 650px);
+}
+
+main > button {
+    background: var(--color-5);
+    border: none;
+    color: black;
+    font-size: 18px;
+    width: 130px;
+    height: 40px;
+    border-radius: 9px;
+}
+
+main > button:hover {
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+
+main > button:active {
+    transition: 0.2s ease-in-out;
+    transform: scale(0.9);
 }
