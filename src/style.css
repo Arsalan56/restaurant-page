@@ -178,6 +178,7 @@ header {
     align-items: center;
     display: flex;
     width: 100%;
+    text-align: center;
 }
 
 .h-top {
@@ -232,33 +233,39 @@ header li > a {
     transform: rotate(1turn);
 }
 
-/* Main styling */
+/* Home styling */
 main {
     display: flex;
     background: rgba(0, 0, 0, 0.8);
     width: clamp(200px, 100vw, 700px);
+    min-height: 500px;
     justify-self: center;
     flex-direction: column;
     flex-grow: 1;
     margin: 50px 0px 50px 0px;
     color: white;
     font-size: 2em;
-    gap: 20px;
+    gap: 25px;
     align-items: center;
     padding: 25px;
     box-sizing: border-box;
 }
 
-main > p:last-of-type {
-    font-size: 0.7em;
+.home {
+    text-align: center;
 }
+.home > p:first-of-type {
+    font-size: 1.5em;
+    margin-bottom: -10px;
+}
+
 .gap {
     height: 0px;
     border: 1px solid white;
     width: clamp(200px, 95vw, 650px);
 }
 
-main > button {
+.home > button {
     background: var(--color-5);
     border: none;
     color: black;
@@ -266,14 +273,39 @@ main > button {
     width: 130px;
     height: 40px;
     border-radius: 9px;
+    cursor: pointer;
 }
 
-main > button:hover {
+.home > button:hover {
     color: white;
     transition: 0.2s ease-in-out;
 }
 
-main > button:active {
+.home > button:active {
     transition: 0.2s ease-in-out;
     transform: scale(0.9);
 }
+
+.home > .hours {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-grow: 1;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.home > .hours > p {
+    font-size: 0.8em;
+}
+.home > .hours > p:first-of-type {
+    margin-bottom: 5px;
+    font-size: inherit;
+}
+
+.home > p:last-of-type {
+    margin-top: 20px;
+    color: var(--color-5);
+}
+/* Menu styling */
+/* Contact styling */
