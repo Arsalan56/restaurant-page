@@ -237,7 +237,7 @@ header li > a {
 main {
     display: flex;
     background: rgba(0, 0, 0, 0.8);
-    width: clamp(200px, 100vw, 700px);
+    width: clamp(200px, 100vw, 900px);
     min-height: 500px;
     justify-self: center;
     flex-direction: column;
@@ -262,7 +262,7 @@ main {
 .gap {
     height: 0px;
     border: 1px solid white;
-    width: clamp(200px, 95vw, 650px);
+    width: 99.5%;
 }
 
 .home > button {
@@ -308,4 +308,18 @@ main {
     color: var(--color-5);
 }
 /* Menu styling */
+
+.menu {
+    display: grid;
+    justify-content: center;
+    grid-template: min-content / repeat(auto-fit, 400px);
+    grid-auto-rows: min-content;
+}
+
+.menu img {
+    width: 400px;
+    height: 400px;
+    object-fit: fill;
+}
+
 /* Contact styling */

@@ -1,3 +1,3 @@
 import CreateHome from './home';
 
-CreateHome();
+// CreateHome();
