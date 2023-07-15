@@ -1,6 +1,17 @@
 import CreateHome from './home';
 import CreateMenu from './menu';
 import CreateContact from './contact';
+import './style.css';
+import './kabob.png';
+import './mail.svg';
+import './map.svg';
+import './call.svg';
+import './menu-1.jpg';
+import './menu-2.jpg';
+import './menu-3.jpeg';
+import './menu-4.jpg';
+import './menu-5.jpg';
+import './menu-6.jpg';
 
 // CreateMenu();
 // CreateContact();

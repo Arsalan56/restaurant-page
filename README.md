@@ -8,6 +8,8 @@ Live Preview: https://arsalan56.github.io/restaurant-page/
 
 Background by [chandlervid85 on Freepik](https://www.freepik.com/free-ai-image/barbecue-skewers-meat-kebabs-with-vegetables-flaming-grill-ai-generative_43226962.htm)
 
+Company icon from [Freepik](https://www.freepik.com/icon/skewers_5140085)
+
 ## What I learned
 
 -   Managing website workload with dom manipulation

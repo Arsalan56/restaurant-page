@@ -21,9 +21,9 @@ export default () => {
 
     main.classList.add('contact');
     title.textContent = 'Contact Us!';
-    phoneimg.setAttribute('src', '../images/call.svg');
-    mailimg.setAttribute('src', '../images/mail.svg');
-    locimg.setAttribute('src', '../images/map.svg');
+    phoneimg.setAttribute('src', './b33a66423d0716f04b312ff83a138663.svg');
+    mailimg.setAttribute('src', './b8d539a57e583502ee4138db41def34d.svg');
+    locimg.setAttribute('src', './2463b6ec73bef742cdc12a21e0c07758.svg');
 
     phoneinfo.textContent = '+1 (012)543-9876';
     mailinfo.textContent = 'flaminkabob@eatnow.com';
