@@ -27,23 +27,31 @@ import CreateContact from './contact';
     };
 
     tabs[0].addEventListener('click', () => {
-        Remove();
-        Home();
-        btnReload();
+        if (!document.querySelector('main.home')) {
+            Remove();
+            Home();
+            btnReload();
+        }
     });
     logo.addEventListener('click', () => {
-        Remove();
-        Home();
-        btnReload();
+        if (!document.querySelector('main.home')) {
+            Remove();
+            Home();
+            btnReload();
+        }
     });
 
     tabs[1].addEventListener('click', () => {
-        Remove();
-        Menu();
+        if (!document.querySelector('main.menu')) {
+            Remove();
+            Menu();
+        }
     });
     btnReload();
     tabs[2].addEventListener('click', () => {
-        Remove();
-        Contact();
+        if (!document.querySelector('main.contact')) {
+            Remove();
+            Contact();
+        }
     });
 })(CreateHome, CreateMenu, CreateContact);
