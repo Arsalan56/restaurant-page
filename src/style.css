@@ -152,7 +152,8 @@ body {
     flex-grow: 1;
     font-family: Georgia, 'Times New Roman', Times, serif;
     cursor: default;
-    background: url(src/background.jpg) fixed center center;
+    background-attachment: fixed;
+    background-position: center;
     background-size: cover;
 }
 /* Header Styling */
