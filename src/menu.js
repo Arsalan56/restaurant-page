@@ -87,12 +87,12 @@ export default () => {
     img4src.appendChild(img4anc);
     img5src.appendChild(img5anc);
     img6src.appendChild(img6anc);
-    img1.setAttribute('src', './1d1cb9ba8d7b4c16d821.jpg');
-    img2.setAttribute('src', './3b603bde25f72c238870.jpg');
-    img3.setAttribute('src', './d23fce096f462039b8b5.jpeg');
-    img4.setAttribute('src', './1cd9cb2543f54d2d728d.jpg');
-    img5.setAttribute('src', './5d2914d978ecf464928e.jpg');
-    img6.setAttribute('src', './d4f29c43f5fd3c7e9ce8.jpg');
+    img1.setAttribute('src', 'src/menu-1.jpg');
+    img2.setAttribute('src', 'src/menu-2.jpg');
+    img3.setAttribute('src', 'src/menu-3.jpeg');
+    img4.setAttribute('src', 'src/menu-4.jpg');
+    img5.setAttribute('src', 'src/menu-5.jpg');
+    img6.setAttribute('src', 'src/menu-6.jpg');
 
     img1name.textContent = 'Beef Kabob With Rice';
     img2name.textContent = 'Lamb Kabob';
