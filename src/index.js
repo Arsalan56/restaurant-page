@@ -19,12 +19,15 @@ import './menu-6.jpg';
 // function menu() {}
 ((Home, Menu, Contact) => {
     Home();
+    const compLogo = document.querySelector('.h-top > a > img');
+    compLogo.setAttribute('src', 'src/kabob.png');
+
+    const body = document.querySelector('body');
     const tabs = document.querySelectorAll('header li');
 
     const logo = document.querySelector('.h-top img:first-of-type');
 
     function Remove() {
-        const body = document.querySelector('body');
         const main = document.querySelector('main');
         body.removeChild(main);
     }
