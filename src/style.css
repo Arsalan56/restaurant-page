@@ -140,6 +140,8 @@ table {
 }
 
 body {
+    --fontmain: #d00000;
+
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -149,20 +151,9 @@ body {
     width: 100vw;
     flex-grow: 1;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    --color-1: #03071e;
-    --color-2: #370617;
-    --color-3: #6a040f;
-    --color-4: #9d0208;
-    --color-5: #d00000;
-    --color-6: #dc2f02;
-    --color-7: #e85d04;
-    --color-8: #f48c06;
-    --color-9: #faa307;
-    --color-10: #ffba08;
     cursor: default;
     background: url(../images/background.jpg) fixed center center;
     background-size: cover;
-    /* https://www.freepik.com/free-ai-image/barbecue-skewers-meat-kebabs-with-vegetables-flaming-grill-ai-generative_43226962.htm#query=barbecue&position=1&from_view=search&track=sph */
 }
 
 /* Header Styling */
@@ -173,11 +164,10 @@ h1 {
     font-family: 'Ananda';
     padding-top: 25px;
     padding-bottom: 10px;
-    color: var(--color-5);
+    color: var(--fontmain);
 }
 
 header {
-    position: sticky;
     flex-direction: column;
     background: rgba(0, 0, 0, 0.7);
     align-items: center;
@@ -201,7 +191,7 @@ header {
 }
 
 header ul {
-    color: var(--color-5);
+    color: var(--fontmain);
     width: 70vw;
     max-width: 600px;
     display: flex;
@@ -272,7 +262,7 @@ main {
 
 .home > button {
     font-family: 'PTSans';
-    background: var(--color-5);
+    background: var(--fontmain);
     border: none;
     color: black;
     font-size: 18px;
@@ -311,7 +301,7 @@ main {
 
 .home > p:last-of-type {
     margin-top: 20px;
-    color: var(--color-5);
+    color: var(--fontmain);
 }
 
 /* Menu styling */
