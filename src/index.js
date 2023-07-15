@@ -12,11 +12,8 @@ import './menu-3.jpeg';
 import './menu-4.jpg';
 import './menu-5.jpg';
 import './menu-6.jpg';
+import './background.jpg';
 
-// CreateMenu();
-// CreateContact();
-
-// function menu() {}
 ((Home, Menu, Contact) => {
     Home();
     const compLogo = document.querySelector('.h-top > a > img');
